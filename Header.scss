@@ -1,0 +1,17 @@
+$header-text-color: aqua;
+
+.nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 2rem;
+  list-style: none;
+  .nav-item {
+    color: $header-text-color;
+    font-size: 1.1rem;
+    :hover {
+      background-color: yellow;
+    }
+  }
+}
